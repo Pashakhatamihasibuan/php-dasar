@@ -12,5 +12,21 @@
 
 <?php
 $nama = "Hello World";
-echo $hello;
+$umur = "25";
+echo $nama;
+echo $umur;
+?>
+
+
+/*
+* Konstanta
+- Nilai tidak dapat berubah-ubah.
+- Pendeklarasian menggunakan fungsi define(nama, value);
+- Aturan penamaan;
+- Biasanya ditulis menggunakan huruf besar.
+*/
+
+<?php
+define("PI", 3.14);
+echo PI;
 ?>
